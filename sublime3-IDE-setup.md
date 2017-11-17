@@ -10,6 +10,11 @@ The user defined compiling/running configuration is under SublimeText3\Data\Pack
 
 You can download [zip file](https://github.com/robertluwang/sublime-setting/blob/master/sublime-build.zip) for all user defined sublime build and extract them to SublimeText3\Data\Packages\User\ then change little bit to reflect your real binary path.
 
+or clone to your local pc:
+```
+git pull git@github.com:robertluwang/sublime-setting.git
+```
+
 ## ST3 C build package
 
 portable gcc located at L:\oldhorse\portableapps\mingw\bin.
