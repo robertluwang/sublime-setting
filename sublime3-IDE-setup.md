@@ -113,8 +113,8 @@ create new build system perl.sublime-build and save to SublimeText3\Data\Package
 
 ## ST3 Python 2/3 build package
 
-portable Python 2 located at L:\oldhorse\portableapps\python\PortablePython2.7.5.1\App
-portable Python 3 located at L:\oldhorse\portableapps\python\PortablePython3.2.5.1\App
+- portable Python 2 located at L:\oldhorse\portableapps\python\PortablePython2.7.5.1\App
+- portable Python 3 located at L:\oldhorse\portableapps\python\PortablePython3.2.5.1\App
 
 create new build system python2.sublime-build and save to SublimeText3\Data\Packages\User,
 
