@@ -3,7 +3,7 @@ My portable sublime located at C:\oldhorse\portableapps\SublimeText3.
 ## solution1 batch job to handle build and run
 This is my small script, no any plugin needed for simply test Go code.
 
-First part is rungo.bat, 
+First part is rungo.bat, handle build and run two steps.
 
 ```
 C:\oldhorse\portableapps\SublimeText3\Data\Packages\User\rungo.bat
@@ -35,12 +35,23 @@ go.sublime-build
 }
 ```
 
+You can choice go from Tools-&gt;Build System list, this is for rungo.bat, then use Tools-&gt;Build to run script, result as below:
+
+```
+[Fri 11/17/2017-11:42:59.57] Compiling hello.go ...... 
+[Fri 11/17/2017-11:43:00.82] Running hello.exe ......   
+hello, world
+[Finished in 1.5s]
+```
+
+![](images/sublime-go-script2.jpg)
+
 ## soluton2 - Official plugin from golang
 
 Install plugin [golang/sublime-build](https://github.com/golang/sublime-build) from Sublime Package Control, search "Golang Build" then install it.
 
-Click Preferences->Package Setting->Golang Config->Setting User, will open golang.sublime-settings, this is your chance to setup customized setting for Go.
- 
+Click Preferences-&gt;Package Setting-&gt;Golang Config-&gt;Setting User, will open golang.sublime-settings, this is your chance to setup customized setting for Go.
+
 You also see this file in C:\oldhorse\portableapps\SublimeText3\Data\Packages\User\golang.sublime-settings
 
 ```
@@ -52,12 +63,14 @@ You also see this file in C:\oldhorse\portableapps\SublimeText3\Data\Packages\Us
 ```
 
 Then you can load Go code in Sublime and build/run it, keep in mind to organize Go project like below structure:
+
 ```
 $GOPATH\go\bin
 $GOPATH\go\src\hello\hello.go
 ```
 
-The output sample,
+You can choice Go from Tools-&gt;Build System list, this is for plugin sublime-build, and use Tools-&gt;Build With to choice task from submenu , result as below:
+
 ```
 > Environment:
 >   GOROOT=C:\oldhorse\portableapps\go
@@ -71,5 +84,6 @@ hello, world
 > Result: Success
 ```
 
-![](images/sublime-go.jpg)
+![](images/sublime-go-build.jpg)
+
 
