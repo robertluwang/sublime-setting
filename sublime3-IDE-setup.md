@@ -8,6 +8,8 @@ C/C++/Java/Go/Objc/Ruby/Lua/HTML/JavaScript/JQuery/bash
 
 The user defined compiling/running configuration is under SublimeText3\Data\Packages\User.
 
+You can download [zip file](https://github.com/robertluwang/sublime-setting/blob/master/sublime-build.zip) for all user defined sublime build and extract them to SublimeText3\Data\Packages\User\ then change little bit to reflect your real binary path.
+
 ## ST3 C build package
 
 portable gcc located at L:\oldhorse\portableapps\mingw\bin.
