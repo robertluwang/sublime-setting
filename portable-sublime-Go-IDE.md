@@ -70,3 +70,6 @@ hello, world
 > Elapsed: 1.067s
 > Result: Success
 ```
+
+![](images/sublime-go.jpg)
+
