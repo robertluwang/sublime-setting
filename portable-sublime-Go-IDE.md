@@ -1,6 +1,6 @@
 My portable sublime located at C:\oldhorse\portableapps\SublimeText3.
 
-## solution1 batch job to handle build and run
+## solution1 - batch job to handle build and run
 This is my small script, no any plugin needed for simply test Go code.
 
 First part is rungo.bat, handle build and run two steps.
