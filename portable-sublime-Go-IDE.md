@@ -44,7 +44,7 @@ hello, world
 [Finished in 1.5s]
 ```
 
-![](images/sublime-go-script2.jpg | width=300)
+![](images/sublime-go-script2.jpg)
 
 ## soluton2 - Official plugin from golang
 
@@ -84,6 +84,6 @@ hello, world
 > Result: Success
 ```
 
-![](images/sublime-go-build.jpg | width=300)
+![](images/sublime-go-build.jpg)
 
 
