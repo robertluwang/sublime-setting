@@ -1,0 +1,6 @@
+{  
+    "cmd": ["C:\\oldhorse\\portableapps\\msys64\\bin\\bash.exe", "$file"],  
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",  
+    "selector": "source.bash",  
+    "encoding": "gbk"  
+}

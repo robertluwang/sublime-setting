@@ -1,0 +1,5 @@
+{
+    "cmd": ["C:\\oldhorse\\portableapps\\msys64\\bin\\perl.exe", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.perl"
+}

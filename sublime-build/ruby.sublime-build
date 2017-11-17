@@ -1,0 +1,6 @@
+{
+    "cmd": ["C:\\RailsInstaller\\Ruby2.1.0\\bin\\ruby.exe", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.ruby",
+    "encoding": "gbk"  
+}

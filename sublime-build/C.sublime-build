@@ -1,0 +1,20 @@
+{
+    "cmd" : ["gcc", "$file_name", "-o", "${file_base_name}.exe"],
+
+    // Doesn't work, sublime text 3, Windows 8.1    
+    // "cmd" : ["gcc $file_name -o ${file_base_name}"],
+
+    "selector" : "source.c",
+    "shell": true,
+    "working_dir" : "$file_path",
+
+    // You could add path to your gcc compiler this and don't add path to your "PATH environment variable"
+    // "path" : "C:\\MinGW\\bin"
+
+    "variants" : [
+
+        { "name": "Run",
+          "cmd" : ["${file_base_name}.exe"]
+        }
+    ]
+}

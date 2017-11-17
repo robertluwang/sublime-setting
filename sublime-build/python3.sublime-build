@@ -1,0 +1,5 @@
+{
+    "cmd": ["C:\\oldhorse\\portableapps\\python\\PortablePython3.2.5.1\\App\\python.exe", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}

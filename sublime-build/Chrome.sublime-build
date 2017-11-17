@@ -1,0 +1,6 @@
+{  
+    "cmd": ["C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "$file"],  
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",  
+    "selector": "source.html",  
+    "encoding": "gbk"  
+}
